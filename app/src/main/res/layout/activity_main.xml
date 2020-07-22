@@ -16,8 +16,8 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:fontFamily="@font/roboto"
-      android:paddingStart="16dp"
-      android:paddingEnd="16dp"
+      android:paddingStart="@dimen/Layout_padding"
+      android:paddingEnd="@dimen/Layout_padding"
       android:text="@string/name"
       android:textAlignment="center" />
 
@@ -25,10 +25,10 @@
       android:id="@+id/imageView"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:layout_marginTop="16dp"
+      android:layout_marginTop="@dimen/Layout_padding"
       android:contentDescription="@string/yellow_star"
-      android:paddingStart="16dp"
-      android:paddingEnd="16dp"
+      android:paddingStart="@dimen/Layout_padding"
+      android:paddingEnd="@dimen/Layout_padding"
       app:srcCompat="@android:drawable/btn_star_big_on" />
 
   <ScrollView
@@ -36,7 +36,13 @@
       android:layout_width="match_parent"
       android:layout_height="match_parent">
 
-    <include layout="@layout/layout_padding" />
+    <TextView
+        android:id="@+id/bio_text"
+        style="@style/NameStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingMultiplier="1.2"
+        android:text="@string/bio" />
 
   </ScrollView>
 </LinearLayout>
