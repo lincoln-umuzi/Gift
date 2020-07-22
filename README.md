@@ -1,0 +1,2 @@
+Linear layout using the Layout Editor (378)
+For raw project instructions see: https://raw.githubusercontent.com/Umuzi-org/tech-department/master/content/projects/kotlin/liner-layout-using-the-layout-editor/_index.md
